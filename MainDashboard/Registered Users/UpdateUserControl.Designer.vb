@@ -36,9 +36,9 @@ Partial Class UpdateUserControl
         Me.Panel12 = New System.Windows.Forms.Panel()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.Panel30 = New System.Windows.Forms.Panel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.txtFirstName = New System.Windows.Forms.TextBox()
         Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.txtMiddleName = New System.Windows.Forms.TextBox()
         Me.lblLastName = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
@@ -73,6 +73,11 @@ Partial Class UpdateUserControl
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.lblPhone = New System.Windows.Forms.Label()
         Me.lblAdress = New System.Windows.Forms.Label()
@@ -84,36 +89,30 @@ Partial Class UpdateUserControl
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
         Me.cmbStatus = New System.Windows.Forms.ComboBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.txtBank = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.cmbBank = New System.Windows.Forms.ComboBox()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.txtBranchAddress = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.txtAccountNum = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.txtBranchAddress = New System.Windows.Forms.TextBox()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.cmbBank = New System.Windows.Forms.ComboBox()
+        Me.txtBank = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel28.SuspendLayout()
         Me.Panel29.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel12.SuspendLayout()
         Me.Panel30.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel14.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel6.SuspendLayout()
@@ -130,16 +129,17 @@ Partial Class UpdateUserControl
         Me.TableLayoutPanel5.SuspendLayout()
         Me.TableLayoutPanel4.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.Panel8.SuspendLayout()
+        Me.Panel7.SuspendLayout()
         Me.Panel25.SuspendLayout()
         Me.Panel13.SuspendLayout()
+        Me.Panel11.SuspendLayout()
+        Me.Panel10.SuspendLayout()
+        Me.Panel9.SuspendLayout()
+        Me.Panel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
-        Me.Panel4.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        Me.Panel9.SuspendLayout()
-        Me.Panel10.SuspendLayout()
-        Me.Panel11.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label21
@@ -301,17 +301,6 @@ Partial Class UpdateUserControl
         Me.Panel30.Size = New System.Drawing.Size(469, 44)
         Me.Panel30.TabIndex = 32
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.Location = New System.Drawing.Point(160, 3)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(419, 71)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 26
-        Me.PictureBox2.TabStop = False
-        '
         'txtFirstName
         '
         Me.txtFirstName.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
@@ -335,6 +324,21 @@ Partial Class UpdateUserControl
         Me.Panel14.Name = "Panel14"
         Me.Panel14.Size = New System.Drawing.Size(469, 44)
         Me.Panel14.TabIndex = 32
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Senior Citizen ID Number", "SSS/GSIS ID Number", "Other IDs (Specify)"})
+        Me.ComboBox1.Location = New System.Drawing.Point(11, 6)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(440, 31)
+        Me.ComboBox1.TabIndex = 26
         '
         'txtMiddleName
         '
@@ -779,6 +783,56 @@ Partial Class UpdateUserControl
         Me.Panel2.Size = New System.Drawing.Size(741, 462)
         Me.Panel2.TabIndex = 2
         '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel8.Controls.Add(Me.DateTimePicker1)
+        Me.Panel8.Location = New System.Drawing.Point(59, 1294)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(335, 44)
+        Me.Panel8.TabIndex = 52
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Location = New System.Drawing.Point(51, 7)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(230, 27)
+        Me.DateTimePicker1.TabIndex = 24
+        Me.DateTimePicker1.Value = New Date(2024, 10, 14, 11, 6, 41, 0)
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(56, 1883)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(153, 24)
+        Me.Label11.TabIndex = 24
+        Me.Label11.Text = "Banking Details"
+        '
+        'Panel7
+        '
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.Controls.Add(Me.TextBox1)
+        Me.Panel7.Location = New System.Drawing.Point(59, 1194)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(469, 44)
+        Me.Panel7.TabIndex = 50
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.Black
+        Me.TextBox1.Location = New System.Drawing.Point(13, 9)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(438, 24)
+        Me.TextBox1.TabIndex = 0
+        '
         'lblDate
         '
         Me.lblDate.AutoSize = True
@@ -893,176 +947,6 @@ Partial Class UpdateUserControl
         Me.cmbStatus.TabIndex = 25
         Me.cmbStatus.Text = "Single"
         '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Controls.Add(Me.TableLayoutPanel2)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(107, 3)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(741, 539)
-        Me.Panel1.TabIndex = 0
-        '
-        'TableLayoutPanel3
-        '
-        Me.TableLayoutPanel3.ColumnCount = 3
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.96371!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 78.07259!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.96371!))
-        Me.TableLayoutPanel3.Controls.Add(Me.Panel1, 1, 0)
-        Me.TableLayoutPanel3.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
-        Me.TableLayoutPanel3.RowCount = 1
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(957, 545)
-        Me.TableLayoutPanel3.TabIndex = 3
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Senior Citizen ID Number", "SSS/GSIS ID Number", "Other IDs (Specify)"})
-        Me.ComboBox1.Location = New System.Drawing.Point(11, 6)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(440, 31)
-        Me.ComboBox1.TabIndex = 26
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(55, 1045)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 24)
-        Me.Label1.TabIndex = 24
-        Me.Label1.Text = "Pension Details"
-        '
-        'Panel4
-        '
-        Me.Panel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel4.Controls.Add(Me.ComboBox2)
-        Me.Panel4.Location = New System.Drawing.Point(59, 1118)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(469, 44)
-        Me.Panel4.TabIndex = 32
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox2.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Senior Citizen ID Number", "SSS/GSIS ID Number", "Other IDs (Specify)"})
-        Me.ComboBox2.Location = New System.Drawing.Point(11, 6)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(440, 31)
-        Me.ComboBox2.TabIndex = 26
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(63, 1094)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(88, 21)
-        Me.Label7.TabIndex = 37
-        Me.Label7.Text = "Pension Type" & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'Panel7
-        '
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel7.Controls.Add(Me.TextBox1)
-        Me.Panel7.Location = New System.Drawing.Point(59, 1194)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(469, 44)
-        Me.Panel7.TabIndex = 50
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.Black
-        Me.TextBox1.Location = New System.Drawing.Point(13, 9)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(438, 24)
-        Me.TextBox1.TabIndex = 0
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(63, 1170)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(159, 21)
-        Me.Label8.TabIndex = 37
-        Me.Label8.Text = "Monthly Pension Amount"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(63, 1257)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(176, 21)
-        Me.Label9.TabIndex = 37
-        Me.Label9.Text = "Date of First Pension Release"
-        '
-        'Panel8
-        '
-        Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel8.Controls.Add(Me.DateTimePicker1)
-        Me.Panel8.Location = New System.Drawing.Point(59, 1294)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(335, 44)
-        Me.Panel8.TabIndex = 52
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(51, 7)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(230, 27)
-        Me.DateTimePicker1.TabIndex = 24
-        Me.DateTimePicker1.Value = New Date(2024, 10, 14, 11, 6, 41, 0)
-        '
-        'Panel9
-        '
-        Me.Panel9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel9.Controls.Add(Me.cmbBank)
-        Me.Panel9.Controls.Add(Me.txtBank)
-        Me.Panel9.Location = New System.Drawing.Point(60, 1945)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(469, 44)
-        Me.Panel9.TabIndex = 32
-        '
-        'txtBank
-        '
-        Me.txtBank.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtBank.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtBank.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBank.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtBank.Location = New System.Drawing.Point(13, 9)
-        Me.txtBank.Name = "txtBank"
-        Me.txtBank.Size = New System.Drawing.Size(311, 24)
-        Me.txtBank.TabIndex = 0
-        Me.txtBank.Text = "--"
-        '
         'Label10
         '
         Me.Label10.AutoSize = True
@@ -1073,51 +957,15 @@ Partial Class UpdateUserControl
         Me.Label10.TabIndex = 37
         Me.Label10.Text = "Bank Name"
         '
-        'Label11
+        'Label14
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(56, 1883)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(153, 24)
-        Me.Label11.TabIndex = 24
-        Me.Label11.Text = "Banking Details"
-        '
-        'cmbBank
-        '
-        Me.cmbBank.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.cmbBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.cmbBank.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbBank.ForeColor = System.Drawing.Color.Black
-        Me.cmbBank.FormattingEnabled = True
-        Me.cmbBank.Items.AddRange(New Object() {"BDO Unibank, Inc.", "Metropolitan Bank & Trust Company (Metrobank)", "Bank of the Philippine Islands (BPI)", "Land Bank of the Philippines (LANDBANK)", "Philippine National Bank (PNB)", "China Banking Corporation (China Bank)", "Development Bank of the Philippines (DBP)", "Security Bank Corporation", "Union Bank of the Philippines (UnionBank)", "Rizal Commercial Banking Corporation (RCBC)", "Philippine Savings Bank (PSBank)", "EastWest Bank", "Asia United Bank (AUB)", "Robinsons Bank Corporation", "Sterling Bank of Asia", "Card SME Bank, Inc.", "One Network Bank (ONB)", "Cantilan Bank (Cantilan Rural Bank)", "Bangko Kabayan, Inc.", "Producers Savings Bank Corporation"})
-        Me.cmbBank.Location = New System.Drawing.Point(13, 6)
-        Me.cmbBank.Name = "cmbBank"
-        Me.cmbBank.Size = New System.Drawing.Size(440, 31)
-        Me.cmbBank.TabIndex = 27
-        '
-        'Panel10
-        '
-        Me.Panel10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel10.Controls.Add(Me.txtBranchAddress)
-        Me.Panel10.Location = New System.Drawing.Point(60, 2109)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(469, 44)
-        Me.Panel10.TabIndex = 32
-        '
-        'txtBranchAddress
-        '
-        Me.txtBranchAddress.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtBranchAddress.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtBranchAddress.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBranchAddress.ForeColor = System.Drawing.Color.Black
-        Me.txtBranchAddress.Location = New System.Drawing.Point(13, 9)
-        Me.txtBranchAddress.Name = "txtBranchAddress"
-        Me.txtBranchAddress.Size = New System.Drawing.Size(437, 24)
-        Me.txtBranchAddress.TabIndex = 0
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(57, 2004)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(110, 21)
+        Me.Label14.TabIndex = 37
+        Me.Label14.Text = "Account Number"
         '
         'Label13
         '
@@ -1152,15 +1000,173 @@ Partial Class UpdateUserControl
         Me.txtAccountNum.Size = New System.Drawing.Size(437, 24)
         Me.txtAccountNum.TabIndex = 0
         '
-        'Label14
+        'Panel10
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(57, 2004)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(110, 21)
-        Me.Label14.TabIndex = 37
-        Me.Label14.Text = "Account Number"
+        Me.Panel10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel10.Controls.Add(Me.txtBranchAddress)
+        Me.Panel10.Location = New System.Drawing.Point(60, 2109)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(469, 44)
+        Me.Panel10.TabIndex = 32
+        '
+        'txtBranchAddress
+        '
+        Me.txtBranchAddress.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtBranchAddress.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtBranchAddress.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtBranchAddress.ForeColor = System.Drawing.Color.Black
+        Me.txtBranchAddress.Location = New System.Drawing.Point(13, 9)
+        Me.txtBranchAddress.Name = "txtBranchAddress"
+        Me.txtBranchAddress.Size = New System.Drawing.Size(437, 24)
+        Me.txtBranchAddress.TabIndex = 0
+        '
+        'Panel9
+        '
+        Me.Panel9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel9.Controls.Add(Me.cmbBank)
+        Me.Panel9.Controls.Add(Me.txtBank)
+        Me.Panel9.Location = New System.Drawing.Point(60, 1945)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(469, 44)
+        Me.Panel9.TabIndex = 32
+        '
+        'cmbBank
+        '
+        Me.cmbBank.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.cmbBank.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.cmbBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmbBank.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbBank.ForeColor = System.Drawing.Color.Black
+        Me.cmbBank.FormattingEnabled = True
+        Me.cmbBank.Items.AddRange(New Object() {"BDO Unibank, Inc.", "Metropolitan Bank & Trust Company (Metrobank)", "Bank of the Philippine Islands (BPI)", "Land Bank of the Philippines (LANDBANK)", "Philippine National Bank (PNB)", "China Banking Corporation (China Bank)", "Development Bank of the Philippines (DBP)", "Security Bank Corporation", "Union Bank of the Philippines (UnionBank)", "Rizal Commercial Banking Corporation (RCBC)", "Philippine Savings Bank (PSBank)", "EastWest Bank", "Asia United Bank (AUB)", "Robinsons Bank Corporation", "Sterling Bank of Asia", "Card SME Bank, Inc.", "One Network Bank (ONB)", "Cantilan Bank (Cantilan Rural Bank)", "Bangko Kabayan, Inc.", "Producers Savings Bank Corporation"})
+        Me.cmbBank.Location = New System.Drawing.Point(13, 6)
+        Me.cmbBank.Name = "cmbBank"
+        Me.cmbBank.Size = New System.Drawing.Size(440, 31)
+        Me.cmbBank.TabIndex = 27
+        '
+        'txtBank
+        '
+        Me.txtBank.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.txtBank.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtBank.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtBank.ForeColor = System.Drawing.Color.DarkGray
+        Me.txtBank.Location = New System.Drawing.Point(13, 9)
+        Me.txtBank.Name = "txtBank"
+        Me.txtBank.Size = New System.Drawing.Size(311, 24)
+        Me.txtBank.TabIndex = 0
+        Me.txtBank.Text = "--"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(63, 1257)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(176, 21)
+        Me.Label9.TabIndex = 37
+        Me.Label9.Text = "Date of First Pension Release"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(63, 1170)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(159, 21)
+        Me.Label8.TabIndex = 37
+        Me.Label8.Text = "Monthly Pension Amount"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(63, 1094)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(88, 21)
+        Me.Label7.TabIndex = 37
+        Me.Label7.Text = "Pension Type" & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'Panel4
+        '
+        Me.Panel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.ComboBox2)
+        Me.Panel4.Location = New System.Drawing.Point(59, 1118)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(469, 44)
+        Me.Panel4.TabIndex = 32
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
+        Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox2.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox2.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"Senior Citizen ID Number", "SSS/GSIS ID Number", "Other IDs (Specify)"})
+        Me.ComboBox2.Location = New System.Drawing.Point(11, 6)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(440, 31)
+        Me.ComboBox2.TabIndex = 26
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(55, 1045)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(154, 24)
+        Me.Label1.TabIndex = 24
+        Me.Label1.Text = "Pension Details"
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.Panel2)
+        Me.Panel1.Controls.Add(Me.TableLayoutPanel2)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(107, 3)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(741, 539)
+        Me.Panel1.TabIndex = 0
+        '
+        'TableLayoutPanel3
+        '
+        Me.TableLayoutPanel3.ColumnCount = 3
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.96371!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 78.07259!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.96371!))
+        Me.TableLayoutPanel3.Controls.Add(Me.Panel1, 1, 0)
+        Me.TableLayoutPanel3.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
+        Me.TableLayoutPanel3.RowCount = 1
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(957, 545)
+        Me.TableLayoutPanel3.TabIndex = 3
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.Location = New System.Drawing.Point(160, 3)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(419, 71)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 26
+        Me.PictureBox2.TabStop = False
         '
         'UpdateUserControl
         '
@@ -1180,7 +1186,6 @@ Partial Class UpdateUserControl
         Me.Panel12.PerformLayout()
         Me.Panel30.ResumeLayout(False)
         Me.Panel30.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel14.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
@@ -1208,20 +1213,21 @@ Partial Class UpdateUserControl
         Me.TableLayoutPanel4.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        Me.Panel25.ResumeLayout(False)
-        Me.Panel13.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
-        Me.TableLayoutPanel3.ResumeLayout(False)
-        Me.Panel4.ResumeLayout(False)
+        Me.Panel8.ResumeLayout(False)
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
-        Me.Panel10.ResumeLayout(False)
-        Me.Panel10.PerformLayout()
+        Me.Panel25.ResumeLayout(False)
+        Me.Panel13.ResumeLayout(False)
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
+        Me.Panel10.ResumeLayout(False)
+        Me.Panel10.PerformLayout()
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.TableLayoutPanel3.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

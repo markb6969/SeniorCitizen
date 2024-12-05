@@ -23,13 +23,6 @@ Partial Class RegisterdUsersHomeControl
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.dgvCellblockInfo = New System.Windows.Forms.DataGridView()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.btnUpdate = New System.Windows.Forms.Button()
@@ -80,10 +73,14 @@ Partial Class RegisterdUsersHomeControl
         Me.pnlTxtUsername = New System.Windows.Forms.Panel()
         Me.txtFirstName = New System.Windows.Forms.TextBox()
         Me.lblCellblockID = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.dgvCellblockInfo = New System.Windows.Forms.DataGridView()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
-        Me.FlowLayoutPanel2.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        CType(Me.dgvCellblockInfo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel19.SuspendLayout()
@@ -103,6 +100,9 @@ Partial Class RegisterdUsersHomeControl
         Me.Panel9.SuspendLayout()
         Me.Panel10.SuspendLayout()
         Me.pnlTxtUsername.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        CType(Me.dgvCellblockInfo, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.FlowLayoutPanel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -119,82 +119,6 @@ Partial Class RegisterdUsersHomeControl
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(972, 448)
         Me.TableLayoutPanel1.TabIndex = 30
-        '
-        'FlowLayoutPanel2
-        '
-        Me.FlowLayoutPanel2.Controls.Add(Me.Label9)
-        Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(0, 0)
-        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(972, 100)
-        Me.FlowLayoutPanel2.TabIndex = 31
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Poppins", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(3, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(349, 65)
-        Me.Label9.TabIndex = 0
-        Me.Label9.Text = "Registered Users"
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.ComboBox1)
-        Me.Panel1.Controls.Add(Me.dgvCellblockInfo)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(3, 3)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 3, 7, 50)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(424, 389)
-        Me.Panel1.TabIndex = 0
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(22, 13)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 25)
-        Me.Label2.TabIndex = 20
-        '
-        'dgvCellblockInfo
-        '
-        Me.dgvCellblockInfo.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dgvCellblockInfo.BackgroundColor = System.Drawing.Color.White
-        Me.dgvCellblockInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvCellblockInfo.Location = New System.Drawing.Point(34, 84)
-        Me.dgvCellblockInfo.Name = "dgvCellblockInfo"
-        Me.dgvCellblockInfo.ReadOnly = True
-        Me.dgvCellblockInfo.RowHeadersWidth = 51
-        Me.dgvCellblockInfo.Size = New System.Drawing.Size(369, 268)
-        Me.dgvCellblockInfo.TabIndex = 21
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(134, 54)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(165, 21)
-        Me.ComboBox1.TabIndex = 22
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(83, 49)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(50, 28)
-        Me.Label1.TabIndex = 23
-        Me.Label1.Text = "Filter"
         '
         'TableLayoutPanel2
         '
@@ -775,6 +699,82 @@ Partial Class RegisterdUsersHomeControl
         Me.lblCellblockID.TabIndex = 23
         Me.lblCellblockID.Text = "ID: (auto generated) "
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.ComboBox1)
+        Me.Panel1.Controls.Add(Me.dgvCellblockInfo)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(3, 3)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 3, 7, 50)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(424, 389)
+        Me.Panel1.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(83, 49)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(50, 28)
+        Me.Label1.TabIndex = 23
+        Me.Label1.Text = "Filter"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(134, 54)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(165, 21)
+        Me.ComboBox1.TabIndex = 22
+        '
+        'dgvCellblockInfo
+        '
+        Me.dgvCellblockInfo.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dgvCellblockInfo.BackgroundColor = System.Drawing.Color.White
+        Me.dgvCellblockInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvCellblockInfo.Location = New System.Drawing.Point(34, 84)
+        Me.dgvCellblockInfo.Name = "dgvCellblockInfo"
+        Me.dgvCellblockInfo.ReadOnly = True
+        Me.dgvCellblockInfo.RowHeadersWidth = 51
+        Me.dgvCellblockInfo.Size = New System.Drawing.Size(369, 268)
+        Me.dgvCellblockInfo.TabIndex = 21
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(22, 13)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(0, 25)
+        Me.Label2.TabIndex = 20
+        '
+        'FlowLayoutPanel2
+        '
+        Me.FlowLayoutPanel2.Controls.Add(Me.Label9)
+        Me.FlowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(972, 100)
+        Me.FlowLayoutPanel2.TabIndex = 31
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Poppins", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(3, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(349, 65)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "Registered Users"
+        '
         'RegisterdUsersHomeControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -785,11 +785,6 @@ Partial Class RegisterdUsersHomeControl
         Me.Name = "RegisterdUsersHomeControl"
         Me.Size = New System.Drawing.Size(972, 545)
         Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.FlowLayoutPanel2.ResumeLayout(False)
-        Me.FlowLayoutPanel2.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        CType(Me.dgvCellblockInfo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
@@ -822,6 +817,11 @@ Partial Class RegisterdUsersHomeControl
         Me.Panel10.PerformLayout()
         Me.pnlTxtUsername.ResumeLayout(False)
         Me.pnlTxtUsername.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.dgvCellblockInfo, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.FlowLayoutPanel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

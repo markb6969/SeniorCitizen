@@ -1,8 +1,8 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class MainDashboard
-    Inherits System.Windows.Forms.Form
+Partial Class MainDashboardControl
+    Inherits System.Windows.Forms.UserControl
 
-    'Form overrides dispose to clean up the component list.
+    'UserControl overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
@@ -22,12 +22,6 @@ Partial Class MainDashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
-        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.tlpMain = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
@@ -44,18 +38,6 @@ Partial Class MainDashboard
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.dgvPopulation = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.btnMainDB = New System.Windows.Forms.Button()
-        Me.btnRegisteredUsers = New System.Windows.Forms.Button()
-        Me.btnBarangay = New System.Windows.Forms.Button()
-        Me.btnManageInmate = New System.Windows.Forms.Button()
-        Me.btnManageUser = New System.Windows.Forms.Button()
-        Me.btnLogout = New System.Windows.Forms.Button()
-        Me.Panel4.SuspendLayout()
-        Me.TableLayoutPanel3.SuspendLayout()
-        Me.TableLayoutPanel4.SuspendLayout()
-        Me.FlowLayoutPanel1.SuspendLayout()
-        Me.tlpMain.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel5.SuspendLayout()
         Me.TableLayoutPanel6.SuspendLayout()
@@ -68,101 +50,25 @@ Partial Class MainDashboard
         CType(Me.dgvTotalBrgy, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         CType(Me.dgvPopulation, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Panel4
-        '
-        Me.Panel4.Controls.Add(Me.PictureBox1)
-        Me.Panel4.Location = New System.Drawing.Point(3, 3)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(250, 198)
-        Me.Panel4.TabIndex = 0
-        '
-        'TableLayoutPanel3
-        '
-        Me.TableLayoutPanel3.ColumnCount = 2
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.22222!))
-        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.77778!))
-        Me.TableLayoutPanel3.Controls.Add(Me.Panel4, 0, 0)
-        Me.TableLayoutPanel3.Controls.Add(Me.TableLayoutPanel4, 1, 0)
-        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
-        Me.TableLayoutPanel3.RowCount = 1
-        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1234, 204)
-        Me.TableLayoutPanel3.TabIndex = 34
-        '
-        'TableLayoutPanel4
-        '
-        Me.TableLayoutPanel4.ColumnCount = 1
-        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel4.Controls.Add(Me.FlowLayoutPanel1, 0, 1)
-        Me.TableLayoutPanel4.Controls.Add(Me.Label1, 0, 0)
-        Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(277, 3)
-        Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
-        Me.TableLayoutPanel4.RowCount = 2
-        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(954, 198)
-        Me.TableLayoutPanel4.TabIndex = 1
-        '
-        'FlowLayoutPanel1
-        '
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnMainDB)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnRegisteredUsers)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnBarangay)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageInmate)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnManageUser)
-        Me.FlowLayoutPanel1.Controls.Add(Me.btnLogout)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 102)
-        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(948, 93)
-        Me.FlowLayoutPanel1.TabIndex = 29
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poppins SemiBold", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(3, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(410, 99)
-        Me.Label1.TabIndex = 26
-        Me.Label1.Text = "Dashboard"
-        '
-        'tlpMain
-        '
-        Me.tlpMain.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.tlpMain.ColumnCount = 1
-        Me.tlpMain.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.tlpMain.Controls.Add(Me.TableLayoutPanel1, 0, 0)
-        Me.tlpMain.Location = New System.Drawing.Point(277, 207)
-        Me.tlpMain.Name = "tlpMain"
-        Me.tlpMain.RowCount = 1
-        Me.tlpMain.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.tlpMain.Size = New System.Drawing.Size(951, 551)
-        Me.tlpMain.TabIndex = 35
         '
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(252, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel5, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.TableLayoutPanel2, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(3, 3)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(1, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(945, 545)
-        Me.TableLayoutPanel1.TabIndex = 36
+        Me.TableLayoutPanel1.TabIndex = 37
         '
         'TableLayoutPanel5
         '
@@ -347,107 +253,13 @@ Partial Class MainDashboard
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Population"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.SeniorCitizen.My.Resources.Resources.Blue_Flat_Illustrative_Finance_Company_Logo
-        Me.PictureBox1.Location = New System.Drawing.Point(-7, -45)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(281, 285)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 19
-        Me.PictureBox1.TabStop = False
-        '
-        'btnMainDB
-        '
-        Me.btnMainDB.BackColor = System.Drawing.Color.Transparent
-        Me.btnMainDB.FlatAppearance.BorderSize = 0
-        Me.btnMainDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMainDB.Image = Global.SeniorCitizen.My.Resources.Resources.grid__2_
-        Me.btnMainDB.Location = New System.Drawing.Point(3, 3)
-        Me.btnMainDB.Name = "btnMainDB"
-        Me.btnMainDB.Size = New System.Drawing.Size(93, 75)
-        Me.btnMainDB.TabIndex = 1
-        Me.btnMainDB.UseVisualStyleBackColor = False
-        '
-        'btnRegisteredUsers
-        '
-        Me.btnRegisteredUsers.BackColor = System.Drawing.Color.Transparent
-        Me.btnRegisteredUsers.FlatAppearance.BorderSize = 0
-        Me.btnRegisteredUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnRegisteredUsers.Image = Global.SeniorCitizen.My.Resources.Resources.multiple_users_silhouette__1_
-        Me.btnRegisteredUsers.Location = New System.Drawing.Point(102, 3)
-        Me.btnRegisteredUsers.Name = "btnRegisteredUsers"
-        Me.btnRegisteredUsers.Size = New System.Drawing.Size(93, 75)
-        Me.btnRegisteredUsers.TabIndex = 1
-        Me.btnRegisteredUsers.UseVisualStyleBackColor = False
-        '
-        'btnBarangay
-        '
-        Me.btnBarangay.BackColor = System.Drawing.Color.Transparent
-        Me.btnBarangay.FlatAppearance.BorderSize = 0
-        Me.btnBarangay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnBarangay.Image = Global.SeniorCitizen.My.Resources.Resources.bank_building
-        Me.btnBarangay.Location = New System.Drawing.Point(201, 3)
-        Me.btnBarangay.Name = "btnBarangay"
-        Me.btnBarangay.Size = New System.Drawing.Size(93, 75)
-        Me.btnBarangay.TabIndex = 1
-        Me.btnBarangay.UseVisualStyleBackColor = False
-        '
-        'btnManageInmate
-        '
-        Me.btnManageInmate.BackColor = System.Drawing.Color.Transparent
-        Me.btnManageInmate.FlatAppearance.BorderSize = 0
-        Me.btnManageInmate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageInmate.Image = Global.SeniorCitizen.My.Resources.Resources.google_docs
-        Me.btnManageInmate.Location = New System.Drawing.Point(300, 3)
-        Me.btnManageInmate.Name = "btnManageInmate"
-        Me.btnManageInmate.Size = New System.Drawing.Size(93, 75)
-        Me.btnManageInmate.TabIndex = 1
-        Me.btnManageInmate.UseVisualStyleBackColor = False
-        '
-        'btnManageUser
-        '
-        Me.btnManageUser.BackColor = System.Drawing.Color.Transparent
-        Me.btnManageUser.FlatAppearance.BorderSize = 0
-        Me.btnManageUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnManageUser.Image = Global.SeniorCitizen.My.Resources.Resources.setting
-        Me.btnManageUser.Location = New System.Drawing.Point(399, 3)
-        Me.btnManageUser.Name = "btnManageUser"
-        Me.btnManageUser.Size = New System.Drawing.Size(93, 75)
-        Me.btnManageUser.TabIndex = 1
-        Me.btnManageUser.UseVisualStyleBackColor = False
-        '
-        'btnLogout
-        '
-        Me.btnLogout.BackColor = System.Drawing.Color.Transparent
-        Me.btnLogout.FlatAppearance.BorderSize = 0
-        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLogout.Image = Global.SeniorCitizen.My.Resources.Resources.logout
-        Me.btnLogout.Location = New System.Drawing.Point(498, 3)
-        Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.Size = New System.Drawing.Size(93, 75)
-        Me.btnLogout.TabIndex = 1
-        Me.btnLogout.UseVisualStyleBackColor = False
-        '
-        'MainDashboard
+        'MainDashboardControl
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(252, Byte), Integer), CType(CType(244, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1234, 761)
-        Me.Controls.Add(Me.tlpMain)
-        Me.Controls.Add(Me.TableLayoutPanel3)
-        Me.Name = "MainDashboard"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "MainDashboard"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.Panel4.ResumeLayout(False)
-        Me.TableLayoutPanel3.ResumeLayout(False)
-        Me.TableLayoutPanel4.ResumeLayout(False)
-        Me.TableLayoutPanel4.PerformLayout()
-        Me.FlowLayoutPanel1.ResumeLayout(False)
-        Me.tlpMain.ResumeLayout(False)
+        Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Name = "MainDashboardControl"
+        Me.Size = New System.Drawing.Size(947, 545)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel5.ResumeLayout(False)
         Me.TableLayoutPanel6.ResumeLayout(False)
@@ -464,38 +276,24 @@ Partial Class MainDashboard
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         CType(Me.dgvPopulation, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents btnMainDB As Button
-    Friend WithEvents btnRegisteredUsers As Button
-    Friend WithEvents btnBarangay As Button
-    Friend WithEvents btnManageInmate As Button
-    Friend WithEvents btnLogout As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
-    Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
-    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
-    Friend WithEvents btnManageUser As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents tlpMain As TableLayoutPanel
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
     Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
     Friend WithEvents Panel2 As Panel
+    Friend WithEvents dgvWithPension As DataGridView
     Friend WithEvents Label4 As Label
     Friend WithEvents Panel5 As Panel
+    Friend WithEvents dgvWithoutPension As DataGridView
     Friend WithEvents Label5 As Label
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents dgvTotalBrgy As DataGridView
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents Label2 As Label
-    Friend WithEvents dgvWithPension As DataGridView
-    Friend WithEvents dgvWithoutPension As DataGridView
-    Friend WithEvents dgvTotalBrgy As DataGridView
     Friend WithEvents dgvPopulation As DataGridView
+    Friend WithEvents Label2 As Label
 End Class

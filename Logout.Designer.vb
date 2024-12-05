@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Logout
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
@@ -29,15 +29,10 @@ Partial Class Form1
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel6 = New System.Windows.Forms.TableLayoutPanel()
+        Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
         Me.btnLogin = New System.Windows.Forms.Button()
-        Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
-        Me.txtUsername = New System.Windows.Forms.TextBox()
-        Me.pnlTxtUsername = New System.Windows.Forms.Panel()
-        Me.lblFirstName = New System.Windows.Forms.Label()
-        Me.txtPassword = New System.Windows.Forms.TextBox()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.lblMiddle = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
@@ -46,9 +41,8 @@ Partial Class Form1
         Me.TableLayoutPanel4.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
-        Me.TableLayoutPanel5.SuspendLayout()
-        Me.pnlTxtUsername.SuspendLayout()
-        Me.Panel10.SuspendLayout()
+        Me.TableLayoutPanel6.SuspendLayout()
+        Me.TableLayoutPanel7.SuspendLayout()
         Me.SuspendLayout()
         '
         'TableLayoutPanel1
@@ -64,7 +58,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(1234, 761)
-        Me.TableLayoutPanel1.TabIndex = 1
+        Me.TableLayoutPanel1.TabIndex = 2
         '
         'TableLayoutPanel2
         '
@@ -138,151 +132,93 @@ Partial Class Form1
         '
         'Panel2
         '
-        Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Controls.Add(Me.TableLayoutPanel5)
-        Me.Panel2.Controls.Add(Me.lblMiddle)
-        Me.Panel2.Controls.Add(Me.Panel10)
-        Me.Panel2.Controls.Add(Me.lblFirstName)
-        Me.Panel2.Controls.Add(Me.pnlTxtUsername)
+        Me.Panel2.Controls.Add(Me.TableLayoutPanel6)
+        Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(339, 3)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(331, 345)
         Me.Panel2.TabIndex = 22
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Poppins SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(16, 94)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(237, 62)
+        Me.Label2.TabIndex = 43
+        Me.Label2.Text = "Logging out"
+        '
+        'TableLayoutPanel6
+        '
+        Me.TableLayoutPanel6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TableLayoutPanel6.ColumnCount = 3
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.04015!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.9197!))
+        Me.TableLayoutPanel6.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.04015!))
+        Me.TableLayoutPanel6.Controls.Add(Me.TableLayoutPanel7, 1, 0)
+        Me.TableLayoutPanel6.Location = New System.Drawing.Point(3, 159)
+        Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
+        Me.TableLayoutPanel6.RowCount = 1
+        Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(328, 115)
+        Me.TableLayoutPanel6.TabIndex = 49
+        '
+        'TableLayoutPanel7
+        '
+        Me.TableLayoutPanel7.ColumnCount = 1
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel7.Controls.Add(Me.btnLogin, 0, 1)
+        Me.TableLayoutPanel7.Controls.Add(Me.Button1, 0, 0)
+        Me.TableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(78, 3)
+        Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
+        Me.TableLayoutPanel7.RowCount = 2
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(170, 109)
+        Me.TableLayoutPanel7.TabIndex = 0
+        '
         'btnLogin
         '
-        Me.btnLogin.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.btnLogin.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnLogin.BackColor = System.Drawing.Color.DarkOrange
+        Me.btnLogin.BackColor = System.Drawing.Color.White
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLogin.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.ForeColor = System.Drawing.Color.White
-        Me.btnLogin.Location = New System.Drawing.Point(84, 3)
+        Me.btnLogin.ForeColor = System.Drawing.Color.Black
+        Me.btnLogin.Location = New System.Drawing.Point(3, 57)
         Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(156, 42)
-        Me.btnLogin.TabIndex = 35
-        Me.btnLogin.Text = "Login"
+        Me.btnLogin.Size = New System.Drawing.Size(164, 48)
+        Me.btnLogin.TabIndex = 42
+        Me.btnLogin.Text = "No"
         Me.btnLogin.UseVisualStyleBackColor = False
-        '
-        'TableLayoutPanel5
-        '
-        Me.TableLayoutPanel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TableLayoutPanel5.ColumnCount = 3
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel5.Controls.Add(Me.btnLogin, 1, 0)
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(3, 294)
-        Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
-        Me.TableLayoutPanel5.RowCount = 1
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(325, 48)
-        Me.TableLayoutPanel5.TabIndex = 32
-        '
-        'txtUsername
-        '
-        Me.txtUsername.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtUsername.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtUsername.Location = New System.Drawing.Point(12, 9)
-        Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(265, 24)
-        Me.txtUsername.TabIndex = 0
-        Me.txtUsername.Text = "Enter username"
-        '
-        'pnlTxtUsername
-        '
-        Me.pnlTxtUsername.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pnlTxtUsername.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.pnlTxtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlTxtUsername.Controls.Add(Me.txtUsername)
-        Me.pnlTxtUsername.Location = New System.Drawing.Point(26, 108)
-        Me.pnlTxtUsername.Name = "pnlTxtUsername"
-        Me.pnlTxtUsername.Size = New System.Drawing.Size(286, 44)
-        Me.pnlTxtUsername.TabIndex = 28
-        '
-        'lblFirstName
-        '
-        Me.lblFirstName.AutoSize = True
-        Me.lblFirstName.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblFirstName.Location = New System.Drawing.Point(22, 84)
-        Me.lblFirstName.Name = "lblFirstName"
-        Me.lblFirstName.Size = New System.Drawing.Size(70, 21)
-        Me.lblFirstName.TabIndex = 29
-        Me.lblFirstName.Text = "Username"
-        '
-        'txtPassword
-        '
-        Me.txtPassword.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtPassword.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtPassword.Location = New System.Drawing.Point(12, 9)
-        Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(265, 24)
-        Me.txtPassword.TabIndex = 0
-        Me.txtPassword.Text = "Enter password"
-        '
-        'Panel10
-        '
-        Me.Panel10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(247, Byte), Integer))
-        Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel10.Controls.Add(Me.txtPassword)
-        Me.Panel10.Location = New System.Drawing.Point(26, 189)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(286, 44)
-        Me.Panel10.TabIndex = 30
-        '
-        'lblMiddle
-        '
-        Me.lblMiddle.AutoSize = True
-        Me.lblMiddle.Font = New System.Drawing.Font("Poppins", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMiddle.Location = New System.Drawing.Point(23, 165)
-        Me.lblMiddle.Name = "lblMiddle"
-        Me.lblMiddle.Size = New System.Drawing.Size(67, 21)
-        Me.lblMiddle.TabIndex = 31
-        Me.lblMiddle.Text = "Password"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(22, 247)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(161, 23)
-        Me.Label1.TabIndex = 40
-        Me.Label1.Text = "Don't have an account?"
         '
         'Button1
         '
-        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.BackColor = System.Drawing.Color.DarkOrange
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Button1.Location = New System.Drawing.Point(176, 244)
+        Me.Button1.Font = New System.Drawing.Font("Poppins", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Button1.Location = New System.Drawing.Point(3, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(125, 32)
-        Me.Button1.TabIndex = 41
-        Me.Button1.Text = "Create account"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Size = New System.Drawing.Size(164, 48)
+        Me.Button1.TabIndex = 42
+        Me.Button1.Text = "Yes"
+        Me.Button1.UseVisualStyleBackColor = False
         '
-        'Form1
+        'Logout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(252, Byte), Integer), CType(CType(244, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1234, 761)
         Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Name = "Form1"
+        Me.Name = "Logout"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.TableLayoutPanel1.ResumeLayout(False)
@@ -293,11 +229,8 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        Me.TableLayoutPanel5.ResumeLayout(False)
-        Me.pnlTxtUsername.ResumeLayout(False)
-        Me.pnlTxtUsername.PerformLayout()
-        Me.Panel10.ResumeLayout(False)
-        Me.Panel10.PerformLayout()
+        Me.TableLayoutPanel6.ResumeLayout(False)
+        Me.TableLayoutPanel7.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -309,14 +242,9 @@ Partial Class Form1
     Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel6 As TableLayoutPanel
+    Friend WithEvents TableLayoutPanel7 As TableLayoutPanel
     Friend WithEvents btnLogin As Button
-    Friend WithEvents lblMiddle As Label
-    Friend WithEvents Panel10 As Panel
-    Friend WithEvents txtPassword As TextBox
-    Friend WithEvents lblFirstName As Label
-    Friend WithEvents pnlTxtUsername As Panel
-    Friend WithEvents txtUsername As TextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label2 As Label
 End Class

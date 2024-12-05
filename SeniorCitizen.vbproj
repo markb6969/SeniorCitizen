@@ -73,6 +73,36 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateAccount\CreateAccountControl.Designer.vb">
+      <DependentUpon>CreateAccountControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount\CreateAccountControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateAccount\CreateAccountHolder.Designer.vb">
+      <DependentUpon>CreateAccountHolder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount\CreateAccountHolder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount\CreateAccountHome.Designer.vb">
+      <DependentUpon>CreateAccountHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount\CreateAccountHome.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateAccount\CreateImageControl.Designer.vb">
+      <DependentUpon>CreateImageControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount\CreateImageControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateAccount\CreatePassControl.Designer.vb">
+      <DependentUpon>CreatePassControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount\CreatePassControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -80,10 +110,34 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainDashboard\BarangayHomeControl.Designer.vb">
-      <DependentUpon>BarangayHomeControl.vb</DependentUpon>
+    <Compile Include="Logout.Designer.vb">
+      <DependentUpon>Logout.vb</DependentUpon>
     </Compile>
-    <Compile Include="MainDashboard\BarangayHomeControl.vb">
+    <Compile Include="Logout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\Add Barangay\AddBarangays.Designer.vb">
+      <DependentUpon>AddBarangays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\Add Barangay\AddBarangays.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\Add Barangay\DeleteBarangayControl.Designer.vb">
+      <DependentUpon>DeleteBarangayControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\Add Barangay\DeleteBarangayControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\Add Barangay\EditBarangayControl.Designer.vb">
+      <DependentUpon>EditBarangayControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\Add Barangay\EditBarangayControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\HomeBarangay.Designer.vb">
+      <DependentUpon>HomeBarangay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Barangays\HomeBarangay.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="MainDashboard\MainDashboard.Designer.vb">
@@ -91,6 +145,36 @@
     </Compile>
     <Compile Include="MainDashboard\MainDashboard.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\ManageHomeControl.Designer.vb">
+      <DependentUpon>ManageHomeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\ManageHomeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\Me\AccChangePassControl.Designer.vb">
+      <DependentUpon>AccChangePassControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\Me\AccChangePassControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\Me\AccountDetailsControl.Designer.vb">
+      <DependentUpon>AccountDetailsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\Me\AccountDetailsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\Me\AccUpdateDetailsControl.Designer.vb">
+      <DependentUpon>AccUpdateDetailsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Manage User\Me\AccUpdateDetailsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Registered Users\MainDashboardControl.Designer.vb">
+      <DependentUpon>MainDashboardControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Registered Users\MainDashboardControl.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="MainDashboard\Registered Users\RegisterdUsersHomeControl.Designer.vb">
       <DependentUpon>RegisterdUsersHomeControl.vb</DependentUpon>
@@ -102,6 +186,12 @@
       <DependentUpon>UpdateUserControl.vb</DependentUpon>
     </Compile>
     <Compile Include="MainDashboard\Registered Users\UpdateUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDashboard\Report\ReportControl.Designer.vb">
+      <DependentUpon>ReportControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainDashboard\Report\ReportControl.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -121,20 +211,65 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CreateAccount\CreateAccountControl.resx">
+      <DependentUpon>CreateAccountControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount\CreateAccountHolder.resx">
+      <DependentUpon>CreateAccountHolder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount\CreateAccountHome.resx">
+      <DependentUpon>CreateAccountHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount\CreateImageControl.resx">
+      <DependentUpon>CreateImageControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount\CreatePassControl.resx">
+      <DependentUpon>CreatePassControl.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainDashboard\BarangayHomeControl.resx">
-      <DependentUpon>BarangayHomeControl.vb</DependentUpon>
+    <EmbeddedResource Include="Logout.resx">
+      <DependentUpon>Logout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Barangays\Add Barangay\AddBarangays.resx">
+      <DependentUpon>AddBarangays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Barangays\Add Barangay\DeleteBarangayControl.resx">
+      <DependentUpon>DeleteBarangayControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Barangays\Add Barangay\EditBarangayControl.resx">
+      <DependentUpon>EditBarangayControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Barangays\HomeBarangay.resx">
+      <DependentUpon>HomeBarangay.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDashboard\MainDashboard.resx">
       <DependentUpon>MainDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Manage User\ManageHomeControl.resx">
+      <DependentUpon>ManageHomeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Manage User\Me\AccChangePassControl.resx">
+      <DependentUpon>AccChangePassControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Manage User\Me\AccountDetailsControl.resx">
+      <DependentUpon>AccountDetailsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Manage User\Me\AccUpdateDetailsControl.resx">
+      <DependentUpon>AccUpdateDetailsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Registered Users\MainDashboardControl.resx">
+      <DependentUpon>MainDashboardControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDashboard\Registered Users\RegisterdUsersHomeControl.resx">
       <DependentUpon>RegisterdUsersHomeControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDashboard\Registered Users\UpdateUserControl.resx">
       <DependentUpon>UpdateUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDashboard\Report\ReportControl.resx">
+      <DependentUpon>ReportControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -175,6 +310,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Blue Flat Illustrative Finance Company Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-with-cogwheels %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdminDashboard\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
